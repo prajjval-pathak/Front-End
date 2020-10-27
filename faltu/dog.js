@@ -1,4 +1,3 @@
-
 const DOG_URL = "https://dog.ceo/api/breeds/image/random";
 
 const doggos = document.querySelector(".doggos");
@@ -17,5 +16,4 @@ function addNewDoggo() {
       doggos.appendChild(img);
     });
 }
-
 document.querySelector(".add-doggo").addEventListener("click", addNewDoggo);
